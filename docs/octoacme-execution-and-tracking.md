@@ -10,6 +10,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **QA column owner:** QA Lead validates acceptance criteria and Definition of Done before items move to Done.
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
@@ -38,3 +39,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+
+For cross-role handoff points during execution and pre-release, see the [Cross-Functional Handoffs Checklist](./octoacme-cross-functional-handoffs-checklist.md).
