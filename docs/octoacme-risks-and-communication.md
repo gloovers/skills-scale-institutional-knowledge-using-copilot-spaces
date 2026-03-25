@@ -9,13 +9,13 @@ Maintain a simple table with:
 - Description
 - Impact (High/Med/Low)
 - Likelihood (High/Med/Low)
-- Owner
+- Owner (PM, PdM, Developer, or DevOps Engineer depending on risk type)
 - Mitigation plan
 - Status
 
 ## Risk Lifecycle
-- Identify: during planning and ongoing execution
-- Assess: estimate impact and likelihood
+- Identify: during planning and ongoing execution; QA Lead and UX Designer surface quality and usability risks early
+- Assess: estimate impact and likelihood; involve DevOps Engineer for infrastructure and deployment risks
 - Mitigate: reduced via actions, contingency plans
 - Monitor: review at weekly syncs and update status
 
